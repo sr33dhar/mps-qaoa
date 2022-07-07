@@ -97,7 +97,7 @@ e.) `MPS_parameter_optimization.py`: This code is for calculating the optimum an
 8. `max_time`: Maximum time in hours for which each Bayesian Optimization process is allowed to continue.
 
 **Output Generated:**
-1. `Global_Cost_Min`: The final minimized cost obtained after repeating Bayesian Optimization having `total_fevals` number of 4functional evaluations, M number of times.
+1. `Global_Cost_Min`: The final minimized cost obtained after repeating Bayesian Optimization having `total_fevals` number of functional evaluations, M number of times.
 2. `Global_Para_Opt`: A list of the 2*p QAOA parameters corresponding to a cost value of `Global_Cost_Min`.
 ---
 f.) `MPS_training_success_probabilities.py`: Code created to use the parameters derived from `MPS_parameter_optimization.py` to calculate the solution expectation purely using MPS-QAOA. This code generates the data presented in Section V.A: QAOA Performances with approximated training, Figure 9, and Appendix H, Figure 16.
