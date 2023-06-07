@@ -1,11 +1,11 @@
 # MPS_QAOA
 
 ## Installation
-    pip install tensornetwork==0.4.5 (and dependencies)
-    pip install GPyOpt==1.2.6 (and dependencies)
-    pip install matplotlib==3.4.3 (and dependencies)
-    pip install pyDoe==0.3.8 (and dependencies)
-    pip install networkx==2.8.5 (and dependencies)
+    pip install tensornetwork==0.4.5
+    pip install GPyOpt==1.2.6
+    pip install matplotlib==3.4.3
+    pip install pyDoe==0.3.8
+    pip install networkx==2.8.5
 
 ## Folders
 ### Exact Cover 3
